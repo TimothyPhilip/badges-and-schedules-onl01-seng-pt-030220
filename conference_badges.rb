@@ -15,6 +15,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attendees.each {|attendee| batch_badge_creator, assign_rooms 
+  attendees.each {|attendee| batch_badge_creator(names), assign_rooms(attendees) 
   }
 end
