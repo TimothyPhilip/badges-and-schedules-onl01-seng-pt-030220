@@ -16,6 +16,5 @@ end
 
 def printer(attendees)
   attendees.each_with_index {|attendee, index|
-  batch_badge_creator(names)
-  assign_rooms(attendees)}
+  }
 end
